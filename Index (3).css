@@ -1,0 +1,20 @@
+.link-center {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.link-center a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 18px;
+  background: rgba(106,27,154,0.85);
+  color: rgb(248, 243, 243);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.link-center a:hover {
+  background: rgba(74,20,140,0.9);
+  transform: scale(1.05);
+}

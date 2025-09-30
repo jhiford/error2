@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Games</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1380/1380370.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+      color: #f0f0f0;
+      background: url("https://cdn.answeroverflow.com/1157134034154049557/Omen_Wallpaper.gif") 
+                  no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    h1 {
+      color: #ff5555;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+
+    .link-center {
+      margin-bottom: 25px;
+    }
+
+    .link-center a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 18px;
+      background: rgba(106,27,154,0.85);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .link-center a:hover {
+      background: rgba(74,20,140,0.9);
+      transform: scale(1.05);
+    }
+
+    .games-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .game-card {
+      background: rgba(0,0,0,0.7);
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .game-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .game-card h2 {
+      margin: 10px 0 5px;
+      color: #66ccff;
+    }
+
+    .game-card p {
+      font-size: 14px;
+      font-style: italic;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="link-center">
+    <a href="index.html">Main Page</a> |
+    <a href="index(2).html">Daily Routine</a> |
+    <a href="yearn.html">Yearning Essay</a>
+  </div>
+<h1>🎮 My Favorite Games 🎮</h1>
+  <div class="games-container">
+    <div class="game-card" onclick="alert('I like Valorant because it challenges me with strategy and teamwork in every match.')">
+      <img src="https://cdn.oneesports.gg/cdn-data/wp-content/uploads/2020/06/Valorant_StarterGuide.jpg" alt="Valorant">
+      <h2>Valorant</h2>
+      <p>A tactical shooter where strategy and teamwork are everything.</p>
+    </div>
+
+    <div class="game-card" onclick="alert('I like Roblox because it lets me be creative and explore endless player-made worlds with friends.')">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.Rm4wAi6sJVoMYfKCEYqIcgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Roblox">
+      <h2>Roblox</h2>
+      <p>A creative platform where I can explore endless games made by the community.</p>
+    </div>
+
+    <div class="game-card" onclick="alert('I like Dota 2 because I enjoy mastering heroes and strategies in a competitive MOBA.')">
+      <img src="https://th.bing.com/th/id/R.d1b79b5af17baa2c723fe72bf9562b18?rik=yK2YZHzpCFYS6A&riu=http%3a%2f%2fwww.techreviewer.co.uk%2fwp-content%2fuploads%2f2014%2f02%2fDota2.jpg&ehk=P7zVtaukw8Xe5RiImUCOMgN0yJni%2fPxfii4Ejg26cXw%3d&risl=&pid=ImgRaw&r=0" alt="Dota 2">
+      <h2>Dota 2</h2>
+      <p>A legendary MOBA game that challenges my skills and strategy.</p>
+    </div>
+
+    <div class="game-card" onclick="alert('I like Mobile Legends because it is fun, fast-paced, and I get to play with my friends anytime.')">
+      <img src="https://play-lh.googleusercontent.com/wRXSrwwbzBBlTpowK6onSs3rfBV-4nqVvLJJ7yAZa7jzdGNHpHH2hDhKCyKWj_3nqw" alt="Mobile Legends">
+      <h2>Mobile Legends</h2>
+      <p>A fast-paced mobile MOBA that I enjoy playing with friends.</p>
+    </div>
+
+    <div class="game-card" onclick="alert('I like Crossfire because it brings me nostalgia and reminds me of my early FPS gaming days.')">
+      <img src="https://i.ytimg.com/vi/mPVjYRXdLAw/maxresdefault.jpg" alt="Crossfire">
+      <h2>Crossfire</h2>
+      <p>A classic FPS that brings back memories of exciting matches.</p>
+    </div>
+  </div>
+</body>
+</html>
